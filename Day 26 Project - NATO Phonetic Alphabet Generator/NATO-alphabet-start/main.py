@@ -1,6 +1,6 @@
 import pandas
 
-generate_alphabet = True
+generate_phonetic = True
 data_frame = pandas.read_csv("nato_phonetic_alphabet.csv")
 alphabet_dict = {row.letter: row.code for (index, row) in data_frame.iterrows()}
 
